@@ -20,14 +20,23 @@ if not (sprite := check_file_exist("flappy_bird_sprite.png")):
     pygame.quit()
     exit()
 
+pg_sprite_sheet = pygame.image.load(sprite)
+def get_image(x, y, width, height, rotate : float = 0, scale : float = SCALE):
+    sheet = pg_sprite_sheet
+    image = pygame.Surface((width, height)).convert_alpha()
+    image.blit(sheet, (0, 0), (x, y, width, height))
+    image = pygame.transform.rotozoom(image, rotate, scale)
+    image.set_colorkey(Black)
+    return image
+
+
 
 screen = pygame.display.set_mode((500, 500))
 screen.fill("BLack")
 
-
-
 clock = pygame.time.Clock()
 
+bird = get_image(sprite_data["blue_bird_1"])
 
 while True:
     for event in pygame.event.get():
