@@ -16,7 +16,7 @@ sprite_data : dict = {
     "silver_medal"   : (14 * SQUARE_PIXEL - 1, 16 * SQUARE_PIXEL + SCREEN_HEIGHT + 8 * SQUARE_PIXEL + 4, MEDAL_RAD, MEDAL_RAD),
     "gold_medal"     : (15 * SQUARE_PIXEL, SCREEN_HEIGHT + MEDAL_RAD + 1, MEDAL_RAD, MEDAL_RAD),
     "platinum medal" : (15 * SQUARE_PIXEL, SCREEN_HEIGHT + 1, MEDAL_RAD, MEDAL_RAD),
-    
+    "blue_bird_1"    : ()
 
 
 }
