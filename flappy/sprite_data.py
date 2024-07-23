@@ -13,12 +13,12 @@ MEDAL_RAD = 3 * SQUARE_PIXEL
 sprite_data : dict = {
     "bg_day"         : (0, 0, 144, 256),
     "bg_night"       : (146, 0, 144, 256),
-    "ground"         : (144 * 2 + GAP * 2, 0, 144, 56),
-    "score_board"    : (0, 256, 120, 8 * SQUARE_PIXEL),
-    "bronze medal"   : (111, 19 * SQUARE_PIXEL + 320 + 4, MEDAL_RAD, MEDAL_RAD),
-    "silver_medal"   : (111, 16 * SQUARE_PIXEL + 320 + 4, MEDAL_RAD, MEDAL_RAD),
-    "gold_medal"     : (120, 256 + MEDAL_RAD + 1, MEDAL_RAD, MEDAL_RAD),
-    "platinum medal" : (120, 256 + 1, MEDAL_RAD, MEDAL_RAD),
+    "ground"         : (292, 0, 144, 56),
+    "score_board"    : (0, 256, 120, 64),
+    "bronze medal"   : (111, 476, 24, 24),
+    "silver_medal"   : (111, 452, 24, 24),
+    "gold_medal"     : (120, 281, 24, 24),
+    "platinum medal" : (120, 257, 24, 24),
     "blue_bird_1"    : (114, 320, 17, 12)
 
 
