@@ -1,5 +1,6 @@
 from sprite_data import *
 import pygame
+import os
 
 def check_file_exist(file_name : str = "") -> str:
     # find the file path in the user desktop
