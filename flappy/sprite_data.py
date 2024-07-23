@@ -7,6 +7,9 @@ Black = (0, 0, 0)
 GAME_SPEED = 1.5
 MEDAL_RAD = 3 * SQUARE_PIXEL
 
+
+ # item : (x, y, width, height)
+ 
 sprite_data : dict = {
     "bg_day"         : (0, 0, SCREEN_WIDTH, SCREEN_HEIGHT),
     "bg_night"       : (SCREEN_WIDTH + GAP, 0, SCREEN_WIDTH, SCREEN_HEIGHT),
@@ -16,7 +19,7 @@ sprite_data : dict = {
     "silver_medal"   : (14 * SQUARE_PIXEL - 1, 16 * SQUARE_PIXEL + SCREEN_HEIGHT + 8 * SQUARE_PIXEL + 4, MEDAL_RAD, MEDAL_RAD),
     "gold_medal"     : (15 * SQUARE_PIXEL, SCREEN_HEIGHT + MEDAL_RAD + 1, MEDAL_RAD, MEDAL_RAD),
     "platinum medal" : (15 * SQUARE_PIXEL, SCREEN_HEIGHT + 1, MEDAL_RAD, MEDAL_RAD),
-    "blue_bird_1"    : ()
+    "blue_bird_1"    : (14 * SQUARE_PIXEL + GAP, SCREEN_HEIGHT + 8 * SQUARE_PIXEL, )
 
 
 }
