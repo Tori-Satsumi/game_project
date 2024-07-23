@@ -1,4 +1,4 @@
-
+from sprite_data import *
 import pygame
 
 pygame.init()
@@ -7,6 +7,7 @@ screen = pygame.display.set_mode((500, 500))
 screen.fill("BLack")
 
 clock = pygame.time.Clock()
+
 
 while True:
     for event in pygame.event.get():
