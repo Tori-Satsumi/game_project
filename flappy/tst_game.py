@@ -36,7 +36,9 @@ screen.fill("BLack")
 
 clock = pygame.time.Clock()
 
-bird = get_image(sprite_data["blue_bird_1"])
+bird = get_image(*sprite_data["blue_bird_1"])
+bird_rect = bird.get_rect(center= (SCREEN_WIDTH / 2 * SCALE, SCREEN_HEIGHT / 2 * SCALE))
+screen.fill("BLack")    
 
 while True:
     for event in pygame.event.get():
@@ -44,8 +46,7 @@ while True:
             pygame.quit()
             exit()
             
-    screen.fill("BLack")    
-    
-    
+    screen.blit(bird, bird_rect)
+            
     pygame.display.update()
     clock.tick(60)

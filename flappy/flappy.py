@@ -138,14 +138,6 @@ class Score_Board(pygame.sprite.Sprite):
     def update(self):
         self.draw()
         
-class Small_Number_img(pygame.sprite.Sprite):
-    def __init__(self, number : int = 0):
-        super().__init__()
-        
-
-class Sparkle(pygame.sprite.Sprite):
-    def __init__(self):
-        super().__init__()
 
 class Pipe(pygame.sprite.Sprite):
     def __init__(self, type):
