@@ -27,6 +27,7 @@ def get_image(x, y, width, height, rotate : float = 0, scale : float = SCALE):
     image.blit(sheet, (0, 0), (x, y, width, height))
     image = pygame.transform.rotozoom(image, rotate, scale)
     image.set_colorkey(Black)
+        
     return image
 
 
