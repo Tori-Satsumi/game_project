@@ -20,6 +20,6 @@ sprite_data : dict = {
     "gold_medal"     : (120, 281, 24, 24),
     "platinum medal" : (120, 257, 24, 24),
     "blue_bird_1"    : (114, 328, 20, 14),
-    "blue_bird_2"    : (114, 352, 20, 14)
+    "blue_bird_2"    : (114, 354, 20, 14),
 
 }
