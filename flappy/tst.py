@@ -1,7 +1,7 @@
 from PIL import Image
 
-im = Image.open('C:\Users\GIGABYTE\OneDrive\Desktop\program\game_project\flappy\img\flappy_bird_sprite.png')
-width, height = im.size
+with Image.open('C:\Users\GIGABYTE\OneDrive\Desktop\program\game_project\flappy\img\flappy_bird_sprite.png') as img:
+    width, height = img.size
 
-print(width)
-print(height)
+    print(width)
+    print(height)
