@@ -31,4 +31,4 @@ sprite_data : dict = {
 key_list = sprite_data.keys()
 value_list = sprite_data.values()
  
-test_name = sprite_data[key_list[len(key_list) - 1]]
+test_name = key_list[len(key_list) - 1]
