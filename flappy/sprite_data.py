@@ -28,4 +28,4 @@ sprite_data : dict = {
 
 }
 
-test_name = "yellow_bird_2"
+test_name = sprite_data
