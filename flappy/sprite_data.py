@@ -28,4 +28,7 @@ sprite_data : dict = {
 
 }
 
-test_name = sprite_data
+key_list = sprite_data.keys()
+value_list = sprite_data.values()
+ 
+test_name = sprite_data[key_list[len(key_list) - 1]]
