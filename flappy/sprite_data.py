@@ -23,12 +23,12 @@ sprite_data : dict = {
     "blue_bird_2"    : (114, 354, 20, 14),
     "blue_bird_3"    : (86, 490, 20, 14),
     "yellow_bird_1"  : (2, 490, 20, 14),
-    "yellow_bird_2"  : (30, 490, 20,14),
-    "yellow_bird_3"  : (),
+    "yellow_bird_2"  : (30, 490, 20, 14),
+    "yellow_bird_3"  : (58, 490, 20, 14),
 
 }
 
-key_list = sprite_data.keys()
-value_list = sprite_data.values()
+key_list = list(sprite_data.keys())
+value_list = list(sprite_data.values())
  
 test_name = key_list[len(key_list) - 1]
