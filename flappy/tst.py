@@ -1,8 +1,7 @@
-def la(x, y, z):
-    print(x)
-    print(y)
-    print(z)
-    
-    
-h = (1, 2, 3)
-la(*h)
+from PIL import Image
+
+im = Image.open('flappy\img\flappy_bird_sprite.png')
+width, height = im.size
+
+print(width)
+print(height)
