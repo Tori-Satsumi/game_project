@@ -37,8 +37,8 @@ screen.fill("BLack")
 
 clock = pygame.time.Clock()
 
-bird = get_image(*sprite_data["blue_bird_2"], scale= 10)
-bird_rect = bird.get_rect(center= (SCREEN_WIDTH / 2 * SCALE, SCREEN_HEIGHT / 2 * SCALE))
+bird = get_image(*sprite_data["blue_bird_3"], scale= 10)
+bird_rect = bird.get_rect(center= (250, 250))
 screen.fill("White")    
 
 while True:
