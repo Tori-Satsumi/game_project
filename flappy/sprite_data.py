@@ -28,7 +28,7 @@ sprite_data : dict = {
     "red_bird_1"     : (114, 380, 20, 14),
     "red_bird_2"     : (114, 406, 20, 14),
     "red_bird_3"     : (114, 432, 20, 14),
-    "small_num_0"    : (136, ),
+    "small_num_0"    : (135, 304, ),
     "small_num_1"    : (),
     "small_num_2"    : (),
     "small_num_3"    : (),
