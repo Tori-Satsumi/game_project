@@ -3,14 +3,14 @@
 while True:
     nums = input("number: ")
     try:
-        nums = float(int(nums))
+        nums = int(nums)
         break
     except:
         pass
     
 total = 0
 for i, num in enumerate(str(nums), 1):
-    total += num ** i
+    total += (int(num) ** int(i))
     
 if total == nums:
     print("Disarium number")
