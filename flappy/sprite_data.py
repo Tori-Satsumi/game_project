@@ -41,15 +41,15 @@ sprite_data : dict[str : (int, int, int, int)] = {
         (138, 436, 6, 7)
     ],
     "med_num_0"      : (137, 306, 7, 10),
-    "med_num_1"       : (),
-    "med_num_2"       : (),
-    "med_num_3"       : (),
-    "med_num_4"       : (),
-    "med_num_5"       : (),
-    "med_num_6"       : (),
-    "med_num_7"       : (),
-    "med_num_8"       : (),
-    "med_num_9"       : (),
+    "med_num_1"       : (132, 476, 7, 10),
+    # "med_num_2"       : (),
+    # "med_num_3"       : (),
+    # "med_num_4"       : (),
+    # "med_num_5"       : (),
+    # "med_num_6"       : (),
+    # "med_num_7"       : (),
+    # "med_num_8"       : (),
+    # "med_num_9"       : (),
     
 }
 
