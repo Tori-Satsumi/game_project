@@ -33,12 +33,12 @@ sprite_data : dict = {
     "small_num_1"    : (138, 332, 6, 7),
     "small_num_2"    : (138, 349, 6, 7),
     "small_num_3"    : (138, 358, 6, 7),
-    # "small_num_4"    : (),
-    # "small_num_5"    : (),
-    # "small_num_6"    : (),
-    # "small_num_7"    : (),
-    # "small_num_8"    : (),
-    # "small_num_9"    : (),
+    "small_num_4"    : (138, 375, 6, 7),
+    "small_num_5"    : (138, 384, 6, 7),
+    "small_num_6"    : (138, 401, 6, 7),
+    "small_num_7"    : (138, 410, 6, 7),
+    "small_num_8"    : (138, 427, 6, 7),
+    "small_num_9"    : (138, 436, 6, 7),
 
 }
 
