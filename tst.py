@@ -1,5 +1,3 @@
-
-
 while True:
     nums = input("number: ")
     try:
