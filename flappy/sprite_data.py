@@ -49,7 +49,7 @@ sprite_data : dict[str : (int, int, int, int)] = {
     "med_num_6"       : (505, 26, 7, 10),
     "med_num_7"       : (505, 42, 7, 10),
     "med_num_8"       : (293, 242, 7, 10),
-    "med_num_9"       : (293, 210, 7, 10),
+    "med_num_9"       : (293, 208, 7, 10),
     
 }
 
