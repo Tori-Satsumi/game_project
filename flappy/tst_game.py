@@ -23,7 +23,7 @@ if not (sprite := check_file_exist("flappy_bird_sprite.png")):
 pg_sprite_sheet = pygame.image.load(sprite)
 def get_image(x, y, width, height, rotate : float = 0, scale : float = SCALE):
     sheet = pg_sprite_sheet
-    image = pygame.Surface((width, height), pygame.SRCALPHA, 32).convert_alpha()
+    image = pygame.Surface((width, height)).convert_alpha()
     image.blit(sheet, (0, 0), (x, y, width, height))
     image = pygame.transform.rotozoom(image, rotate, scale)
     # image = pygame.transform.smoothscale_by(image, (scale, scale))
