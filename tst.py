@@ -1,16 +1,12 @@
-while True:
-    nums = input("number: ")
-    try:
-        nums = int(nums)
-        break
-    except:
-        pass
-    
-total = 0
-for i, num in enumerate(str(nums), 1):
-    total += (int(num) ** int(i))
-    
-if total == nums:
-    print("Disarium number")
-else:
-    print("not Disarium number")
+import time
+from string import ascii_letters, digits
+
+comb = ascii_letters + digits
+
+past = time.now()
+for i in comb:
+    for h in comb:
+        for j in comb:
+            for k in comb:
+                print(i, h, j, k)
+                
